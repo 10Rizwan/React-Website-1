@@ -1,0 +1,195 @@
+[debug] [2023-05-13T15:41:38.678Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T15:41:38.687Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T15:41:38.689Z] CLI Version:   11.15.0
+[debug] [2023-05-13T15:41:38.690Z] Platform:      win32
+[debug] [2023-05-13T15:41:38.690Z] Node Version:  v16.17.0
+[debug] [2023-05-13T15:41:38.798Z] Time:          Sat May 13 2023 20:41:38 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T15:41:38.799Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T15:41:38.826Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-13T15:41:39.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T15:41:39.291Z] > authorizing via signed-in user (ghorishahraukh27@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-05-13T15:41:40.272Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-05-13T15:41:40.273Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T15:41:57.357Z] Using project from CLI flag: smit-data-table-28eb5
+[debug] [2023-05-13T15:41:57.359Z] > refreshing access token with scopes: []
+[debug] [2023-05-13T15:41:57.361Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-13T15:41:57.361Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:41:58.215Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-13T15:41:58.215Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:41:58.217Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 [none]
+[debug] [2023-05-13T15:41:58.696Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 401
+[debug] [2023-05-13T15:41:58.696Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-13T15:41:58.698Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-13T15:41:59.376Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project smit-data-table-28eb5. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-13T15:48:34.454Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T15:48:34.457Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T15:48:34.457Z] CLI Version:   12.0.0
+[debug] [2023-05-13T15:48:34.458Z] Platform:      win32
+[debug] [2023-05-13T15:48:34.458Z] Node Version:  v16.17.0
+[debug] [2023-05-13T15:48:34.459Z] Time:          Sat May 13 2023 20:48:34 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T15:48:34.460Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T15:48:34.568Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T15:48:34.569Z] > authorizing via signed-in user (ghorishahraukh27@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T15:48:45.787Z] Using project from CLI flag: smit-data-table-28eb5
+[debug] [2023-05-13T15:48:45.790Z] > refreshing access token with scopes: []
+[debug] [2023-05-13T15:48:45.792Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-13T15:48:45.793Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:48:46.661Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-13T15:48:46.662Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:48:46.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 [none]
+[debug] [2023-05-13T15:48:47.158Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 401
+[debug] [2023-05-13T15:48:47.159Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-13T15:48:47.160Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-13T15:48:48.078Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project smit-data-table-28eb5. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-13T15:50:15.991Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T15:50:15.994Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T15:50:15.995Z] CLI Version:   12.0.0
+[debug] [2023-05-13T15:50:15.995Z] Platform:      win32
+[debug] [2023-05-13T15:50:15.995Z] Node Version:  v16.17.0
+[debug] [2023-05-13T15:50:15.997Z] Time:          Sat May 13 2023 20:50:15 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T15:50:15.997Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T15:50:16.123Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T15:50:16.124Z] > authorizing via signed-in user (ghorishahraukh27@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T15:50:24.483Z] Using project from CLI flag: smit-data-table-28eb5
+[debug] [2023-05-13T15:50:24.485Z] > refreshing access token with scopes: []
+[debug] [2023-05-13T15:50:24.488Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-13T15:50:24.488Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:50:24.908Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-13T15:50:24.908Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T15:50:24.909Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 [none]
+[debug] [2023-05-13T15:50:25.368Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 401
+[debug] [2023-05-13T15:50:25.369Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-13T15:50:25.371Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-13T15:50:30.397Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-14T11:51:41.369Z] ----------------------------------------------------------------------
+[debug] [2023-05-14T11:51:41.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-14T11:51:41.377Z] CLI Version:   12.0.0
+[debug] [2023-05-14T11:51:41.377Z] Platform:      win32
+[debug] [2023-05-14T11:51:41.378Z] Node Version:  v16.17.0
+[debug] [2023-05-14T11:51:41.487Z] Time:          Sun May 14 2023 16:51:41 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-14T11:51:41.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-14T11:51:41.762Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-14T11:51:41.763Z] > authorizing via signed-in user (ghorishahraukh27@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-14T11:51:51.677Z] Using project from CLI flag: smit-data-table-28eb5
+[debug] [2023-05-14T11:51:51.679Z] > refreshing access token with scopes: []
+[debug] [2023-05-14T11:51:51.682Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-14T11:51:51.682Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-14T11:51:52.794Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-14T11:51:52.794Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-14T11:51:52.796Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 [none]
+[debug] [2023-05-14T11:51:53.198Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 401
+[debug] [2023-05-14T11:51:53.199Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-data-table-28eb5 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-14T11:51:53.201Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-14T11:51:54.096Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project smit-data-table-28eb5. Please make sure the project exists and your account has permission to access it.
